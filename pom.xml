@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.acme</groupId>
     <artifactId>acme-rest-api</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <name>ACME ReST API extension</name>
     <packaging>jar</packaging>
     <description>ACME ReST API platform/repository extension with Web Scripts</description>
@@ -27,7 +27,7 @@
         <connection>scm:git:git@github.com:gravitonian/acme-rest-api.git</connection>
         <url>https://github.com/gravitonian/acme-rest-api</url>
         <developerConnection>scm:git:git@github.com:gravitonian/acme-rest-api.git</developerConnection>
-      <tag>v1.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <repositories>
