@@ -3,11 +3,11 @@
 SET COMPOSE_FILE_PATH=%CD%\target\classes\docker\docker-compose.yml
 
 IF [%M2_HOME%]==[] (
-    SET MVN_EXEC=mvn
+    SET MVN_EXEC=mvn -DextensionProjectActivation
 )
 
 IF NOT [%M2_HOME%]==[] (
-    SET MVN_EXEC=%M2_HOME%\bin\mvn
+    SET MVN_EXEC=%M2_HOME%\bin\mvn -DextensionProjectActivation
 )
 
 IF [%1]==[] (

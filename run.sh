@@ -3,9 +3,9 @@
 export COMPOSE_FILE_PATH="${PWD}/target/classes/docker/docker-compose.yml"
 
 if [ -z "${M2_HOME}" ]; then
-  export MVN_EXEC="mvn"
+  export MVN_EXEC="mvn -DextensionProjectActivation"
 else
-  export MVN_EXEC="${M2_HOME}/bin/mvn"
+  export MVN_EXEC="${M2_HOME}/bin/mvn -DextensionProjectActivation"
 fi
 
 start() {
